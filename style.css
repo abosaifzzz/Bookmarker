@@ -1,0 +1,94 @@
+body{
+
+    background-color: #F7ECDE;
+}
+.bg{
+    height: 60px;
+    /* background-color: aqua; */
+    position: relative;
+    margin-bottom: 40px;
+
+   }
+   .bg h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+   }
+.overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #FEC260;
+    z-index: -1;
+    transition: 0.4s;
+
+
+}
+
+.bg:hover .overlay{
+    height: 38px;
+}
+.first{
+    overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.first h2{
+    font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 25px;
+  font-style: normal;
+    background: -webkit-linear-gradient(327deg, rgba(39,121,9,1) 26%, rgba(192,165,22,1) 98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input::placeholder{
+ font-weight: 500;
+ color: rgba(0, 0, 0, 0.508) !important; 
+}
+input{
+    margin-top: 10px;
+}
+
+.first button{
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color:#D1512D;
+    border-radius: 10px;
+}
+.second{
+    margin-top: 30px;
+background-color: #ffffff;
+    width: 100%;
+}
+
+.t-head{
+    width: 100%;
+height: 40px;
+border-bottom: 1px solid black;
+}
+
+.index-value .view{
+    margin: 0;
+    width: 100px;
+    background-color: #FEC260;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.index-value .delete{
+    margin: 0;
+    width: 100px;
+    background-color: #ff0000e7;
+}
